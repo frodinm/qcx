@@ -5,6 +5,7 @@ export class Header extends PureComponent {
     window.initialSection = document.getElementById('initial-section').getBoundingClientRect().top;
     window.liveSection = document.getElementById('live-section').getBoundingClientRect().top;
     window.questionsSection = document.getElementById('questions').getBoundingClientRect().top;
+    window.footer = document.getElementById('footer').getBoundingClientRect().top;
   }
 
   handleScrollToSection(id){
@@ -14,8 +15,8 @@ export class Header extends PureComponent {
     window.scrollTo({top:window.liveSection,behavior:'smooth'})
    }else if(id.toString() === "questions"){
     window.scrollTo({top:window.questionsSection,behavior:'smooth'})
-   }else if(id.toString() === "live-section"){
-    window.scrollTo({top:window.liveSection,behavior:'smooth'})
+   }else if(id.toString() === "footer"){
+    window.scrollTo({top:window.footer,behavior:'smooth'})
    }
   }
   render() {
@@ -27,7 +28,7 @@ export class Header extends PureComponent {
           <div className="header-sections">
             <a onClick={()=>this.handleScrollToSection('live-section')} className="header-text" >Features</a>
             <a onClick={()=>this.handleScrollToSection('questions')} className="header-text">Questions</a>
-            <a onClick={()=>this.handleScrollToSection('questions')} className="header-text">Contact</a>
+            <a onClick={()=>this.handleScrollToSection('footer')} className="header-text">Contact</a>
           </div>
         </header>
     );

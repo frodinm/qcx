@@ -8,7 +8,7 @@ import gmail from '../assets/gmail.png'
 export class Footer extends PureComponent {
   render() {
     return (
-        <div className="App-footer">
+        <div className="App-footer" id="footer">
           <div className="footer-sections" id="footer-links">
             <span style={{fontSize:20}}>Download the app</span>
             <div style={{display:'flex',flexDirection:'row'}}>

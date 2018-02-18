@@ -11,7 +11,7 @@ export class Questions extends Component {
                 </div>
                 <div className="question-wrapper">
                     <span className="Question">Is my information secure?</span>
-                    <span className="Answer">Yes, the client id, api key and api secret are securely stored on the user's phone. All the data is encrypted on the user's mobile device. Any calls to request data from the QuadrigaCX servers follows their encryption standards as well. I do not and never will gather my user's private data to access their accounts.</span>
+                    <span className="Answer">Yes, your client id, api key and api secret are securely stored on your phone. All the data is encrypted on your phone for extra security. Any calls to request data from the QuadrigaCX servers follow their encryption standards as well. I do not and never will gather my user's private data to access their accounts.</span>
                 </div>
             </div>
             <div id="questions-right">
