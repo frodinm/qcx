@@ -1,0 +1,19 @@
+{
+  "main.css": "static/css/main.92c6952b.css",
+  "main.css.map": "static/css/main.92c6952b.css.map",
+  "main.js": "static/js/main.c3424d96.js",
+  "main.js.map": "static/js/main.c3424d96.js.map",
+  "static/media/IosWallet.png": "static/media/IosWallet.3dd1a08b.png",
+  "static/media/LiveStats.png": "static/media/LiveStats.8a754643.png",
+  "static/media/Notifications.png": "static/media/Notifications.d25be9b7.png",
+  "static/media/OpenOrders.png": "static/media/OpenOrders.e786b98d.png",
+  "static/media/OrdersInfo.png": "static/media/OrdersInfo.78d0a851.png",
+  "static/media/PastTransactions.png": "static/media/PastTransactions.5a2edcbe.png",
+  "static/media/Trade.png": "static/media/Trade.ca0a90ef.png",
+  "static/media/TransactionInfo.png": "static/media/TransactionInfo.5366af43.png",
+  "static/media/Wallet.png": "static/media/Wallet.e3c7e547.png",
+  "static/media/appstore.svg": "static/media/appstore.6c65b091.svg",
+  "static/media/gmail.png": "static/media/gmail.847c083c.png",
+  "static/media/googleplay.svg": "static/media/googleplay.ce177c0d.svg",
+  "static/media/icon.png": "static/media/icon.c00656cb.png"
+}
