@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import logo from '../assets/icon.png'
 import appStore from '../assets/ios/appstore.svg'
 import playStore from '../assets/android/googleplay.svg'
-import IphoneLiveStats from '../assets/ios/LiveStats.png'
-import AndroidLiveStats from '../assets/android/LiveStats.png'
+import LiveStats from '../assets/WebLiveData.png'
 
 export class Initial extends Component {
   render() {
     return (
         <div className="welcome-section" id="initial-section">
-         <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',marginRight:100}}>
+         <div className="initial-wrapper">
             <img alt="logo" id="logo" src={logo} style={{margin:10}}/>
             <div style={{display:'flex',flexDirection:'column'}}>
                 <span style={{fontSize:35,color:'black',margin:5}}>Qcx</span>
@@ -21,8 +20,7 @@ export class Initial extends Component {
             </div>
         </div>
          <div className="live-mockups">
-            <img src={AndroidLiveStats} alt="android-stats" className="live-stats" id="android-realTime"/>
-            <img src={IphoneLiveStats} alt="ios-stats" className="live-stats" id="ios-realTime"/>
+            <img src={LiveStats} alt="android-stats" className="image" id="android-realTime"/>
          </div>
       </div>
     );
