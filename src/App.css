@@ -140,6 +140,7 @@
   color: black;
   font-size: 1.5rem;
   margin:1rem;
+  font-weight: bold;
 }
 #initial{
   
@@ -174,6 +175,9 @@
   .header-sections{
     width:70vw;
   }
+  .Question{
+    font-size: 1.2rem;
+  }
   .header-title a{
     font-size: 1.6rem;
   }
@@ -185,12 +189,12 @@
   }
   #questions-left{
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
 
   }
   #questions-right{
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
   }
   #questions{
     flex-direction: column;
